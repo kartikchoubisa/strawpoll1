@@ -1,0 +1,57 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Qwitcher Grypen";
+    font-size: 48px;
+    margin-left: 48px;
+    margin-top: 24px;
+    color:blue;
+}
+.connectButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 64px;
+    margin-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 16px;
+    border-width: 2px;
+    background-color: white;
+    color: blue;
+    border-color: blue;
+}
+.signed_in_wallet {
+  width: 260px;
+  height: 56px;
+  color: blue;
+  border-color: blue;
+  border-style: solid;
+  border-width:1px;
+  border-radius: 20px;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100%;
+  padding-left: 1%;
+}
+.wallet_address{
+  border-color: blue;
+ 
+  
+}
+.signed_in {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 360px;
+}

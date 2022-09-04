@@ -1,0 +1,14 @@
+.dashboardContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.totalProposals {
+    font-size: 24px;
+    font-weight: 500;
+}
+.expiresIn {
+    font-size: 24px;
+    font-weight: 500;
+}
