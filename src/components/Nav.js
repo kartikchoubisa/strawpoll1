@@ -4,7 +4,7 @@ import UAuth from "@uauth/js"
 
 const uauth = new UAuth({
     clientID: "2d1c3334-fe0f-48b4-a635-af406cf595f2",
-    redirectUri: "http://localhost:3000",
+    redirectUri: "https://632089e4864aab4761640b1a--joyful-toffee-739f22.netlify.app",
     scope: "openid wallet",
 })
 
