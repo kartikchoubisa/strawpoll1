@@ -3,10 +3,10 @@ import "./Nav.css"
 import UAuth from "@uauth/js"
 
 const uauth = new UAuth({
-    clientID: "2d1c3334-fe0f-48b4-a635-af406cf595f2",
-    redirectUri: "https://632089e4864aab4761640b1a--joyful-toffee-739f22.netlify.app",
-    scope: "openid wallet",
-})
+    clientID: "70012f58-4bea-4028-b4f8-74b80a1f1283",
+    redirectUri: "http://localhost:3000",
+    scope: "openid wallet"
+  })
 
 function Nav() {
     const [userWallet, setUserWallet] = useState(null)
